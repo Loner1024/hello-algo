@@ -57,3 +57,8 @@
   display: block;
   margin: 0 auto;
 }
+
+/* Font family */
+.md-typeset code, .md-typeset kbd, .md-typeset pre {
+  font-family: var(--md-code-font-family), var(--md-text-font,_);
+}
