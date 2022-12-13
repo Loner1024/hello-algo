@@ -58,7 +58,7 @@
   margin: 0 auto;
 }
 
-/* Font family */
-.md-typeset code, .md-typeset kbd, .md-typeset pre {
-  font-family: var(--md-code-font-family), var(--md-text-font,_);
+/* font-family setting for Win10 */
+body {
+  --md-code-font-family: var(--md-code-font, _), SFMono-Regular, Consolas, Menlo, Noto Sans SC, monospace;
 }
